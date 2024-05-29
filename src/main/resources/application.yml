@@ -1,0 +1,10 @@
+micronaut:
+  application:
+    name: billingfmt-svc
+  server:
+    port: 8811
+eclipsestore:
+  storage:
+    main:
+      root-class: tech.reactivemedia.billings.OrderContainer
+      storage-directory: build/orders-store
